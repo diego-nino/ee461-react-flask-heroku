@@ -1,3 +1,102 @@
-.hostName {
-  font-family: "Comic Sans MS";
+.App {
+  text-align: left;
 }
+
+.App-header {
+  color: black;
+  background-color: antiquewhite;
+}
+
+
+.projectTitle {
+  font-size: 30px;
+  font-family: Arial;
+  text-align: center;
+}
+
+.projectWrap {
+  background: sandybrown;
+  width: 1300px;
+  display: inline-block;
+  margin: 50px 50px 50px 50px;
+  text-align: center;
+  border-radius: 10px;
+
+}
+
+.project {
+  display: inline-block;
+  background-color: antiquewhite;
+  border-radius: 10px;
+}
+
+.emptySpace {
+  display: inline-block;
+}
+
+.column {
+  width: 14%;
+  margin-top: 10px;
+  float: left;
+}
+
+.projectName {
+  font-family: Arial;
+  font-size: 30px;
+}
+
+.user {
+  font-family: Arial;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.hwDescription {
+  font-family: Arial;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hwSelect {
+  font-size: 20px;
+}
+
+.hwInput {
+  font-size: 18px;
+  height: 15px;
+  width: 100px;
+  padding: 5px 20px;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-color: sandybrown;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.checkBtn {
+  font-family: Arial;
+  font-size: 18px;
+  height: 30px;
+  width: 150px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.checkBtn:hover {
+  background-color: sandybrown;
+  border: 3px solid #ffffff;
+}
+
+.joinBtn {
+  font-family: Arial;
+  font-size: 19px;
+  height: 30px;
+  width: 150px;
+  margin-top: 25px;
+  vertical-align: middle;
+  border-style: solid;
+  border-radius: 5px;
+}
+
